@@ -1,0 +1,81 @@
+/* Import the font */
+
+/* --------- Start Bubbles -------------- */
+.bubbles {
+  overflow-y: scroll;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-wrap: wrap;
+}
+
+.messages-container {
+  position: absolute;
+  top: 10px;
+  overflow-y: scroll;
+  width: 54%;
+  height: 80%;
+  z-index: 200;
+}
+
+@media (min-width: 1000px) {
+  .chat-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .messages-container {
+    width: 60%;
+  }
+}
+@media (max-width: 558px) {
+  .messages-container {
+    top: 70px;
+    width: 100%;
+  }
+  .chat-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.right,
+.left {
+  display: flex;
+  padding: 0 20px;
+}
+
+.message-bubble {
+  max-width: 70%;
+  z-index: 100;
+}
+
+.right {
+  justify-content: right;
+}
+
+.left {
+  justify-content: left;
+}
+
+.right pre,
+.left pre {
+  padding: 10px;
+  color: black;
+  opacity: 0.8;
+  font-family: "Radio Canada Big", sans-serif;
+}
+
+.right pre {
+  border-radius: 20px 0 20px 20px;
+  background-color: lightblue;
+}
+
+.left pre {
+  border-radius: 0 20px 20px 20px;
+  background-color: rgba(0, 0, 0, 0.908);
+  color: white;
+}
+/* --------- End Bubbles -------------- */

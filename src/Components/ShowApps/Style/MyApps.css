@@ -1,0 +1,152 @@
+.apps-section-outer-container {
+  display: flex;
+  flex-basis: 130%;
+}
+
+.apps-section-inner-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  justify-content: center;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.apps-section-connections {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  height: 290px;
+  background-color: rgba(255, 255, 255, 0.466);
+  border-radius: 20px;
+  border: 1px solid gray;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.apps-section-bg-img img {
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 19px 19px 0 0;
+  -webkit-border-radius: 19px 19px 0 0;
+  -moz-border-radius: 19px 19px 0 0;
+  -ms-border-radius: 19px 19px 0 0;
+  -o-border-radius: 19px 19px 0 0;
+}
+
+.apps-section-all-user-data {
+  position: relative;
+  top: -60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 90%;
+}
+
+.apps-section-profile-img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.apps-section-user-name {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.apps-section-user-info {
+  font-size: 10px;
+  color: gray;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.apps-section-follow-button {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: end;
+}
+
+.apps-section-follow-button button {
+  padding: 0 10px;
+  width: 90%;
+  height: 35px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  background-color: rgba(255, 255, 255, 0.466);
+  font-size: 15px;
+  font-weight: 600;
+  color: gray;
+  cursor: pointer;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.apps-section-follow-button button:hover {
+  border-top: 3px solid gray;
+  background-color: rgba(173, 216, 230, 0.233);
+}
+
+.apps-section-connections a {
+  color: black;
+}
+
+@media (min-width: 1200px) {
+  .apps-section-outer-container {
+    padding: 0 300px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1200) {
+  .apps-section-outer-container {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .apps-section-outer-container {
+    padding: 0 10px;
+    margin-left: 4px;
+  }
+
+  .apps-section-connections {
+    width: 140px;
+    height: 280px;
+  }
+  .apps-section-profile-img img {
+    width: 80px;
+    height: 80px;
+  }
+  .apps-section-inner-container {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .apps-section-follow-button button {
+    height: 30px;
+    font-size: 12px;
+  }
+}

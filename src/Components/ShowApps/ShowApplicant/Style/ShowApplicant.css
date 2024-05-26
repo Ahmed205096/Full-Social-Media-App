@@ -1,0 +1,75 @@
+.applicant-section-follow-button button {
+  width: 80px;
+  border-radius: 10px;
+  font-size: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.show-email-in-apps-section {
+  font-weight: normal;
+  font-size: 9px;
+  color: gray;
+  position: relative;
+  top: -10px;
+}
+
+.goto-up-from-app-section {
+  position: relative;
+  top: -10px;
+}
+
+.applicant-section-follow-button :first-child {
+  background-color: rgba(255, 0, 0, 0.771);
+  color: white;
+  margin-right: 2px;
+}
+
+.applicant-section-follow-button :first-child + button {
+  background-color: green;
+  color: white;
+  margin-left: 2px;
+}
+
+.applicant-section-follow-button button:hover {
+  background-color: black;
+}
+
+.all-approved-app-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 50px;
+  top: 10px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 255, 0.716);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+
+.show-apps-separator {
+  height: 20px;
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .applicant-section-follow-button button {
+    height: 30px;
+    width: 60px;
+    font-size: 9px;
+  }
+  .all-approved-app-section {
+    font-size: 10px;
+    top: 10px;
+  }
+}

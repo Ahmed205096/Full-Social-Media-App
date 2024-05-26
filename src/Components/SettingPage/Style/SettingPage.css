@@ -1,0 +1,98 @@
+.settings-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  padding-right: 40px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.settings-section {
+  margin-bottom: 20px;
+}
+
+.settings-section h2 {
+  margin-bottom: 10px;
+}
+
+.setting-item {
+  margin-bottom: 15px;
+}
+
+.setting-item label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.setting-item .upload-cv-label,
+.setting-item .upload-photo,
+.setting-item .upload-cover {
+  width: fit-content;
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.setting-outer-container-button{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.files-upload-from-settings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.setting-item .upload-cv-label:hover,
+.setting-item .upload-photo:hover,
+.setting-item .upload-cover:hover {
+  background-color: black;
+  color: white;
+  transition-duration: 1s;
+}
+
+.setting-item input[type="text"],
+.setting-item input[type="password"],
+.setting-item textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.setting-item textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.setting-item input[type="file"] {
+  display: none;
+}
+
+.save-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.save-button:hover {
+  background-color: #0056b3;
+}

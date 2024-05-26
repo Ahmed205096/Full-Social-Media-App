@@ -1,0 +1,83 @@
+.display-app-info-outer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.display-app-info-inner-container {
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+  width: 100%;
+}
+
+.display-app-info-img-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.display-app-info-separate-content-from-image {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.display-app-info-img-container img {
+  height: auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.display-app-info-content {
+  margin-top: 20px;
+}
+
+pre {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.display-app-info-content pre {
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: silver;
+  padding: 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.display-app-info-content b {
+  font-weight: bold;
+}
+
+.display-app-info-content-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.display-app-info-content-description,
+.display-app-info-content-requirements,
+.display-app-info-content-department,
+.display-app-info-content-deadline {
+  margin-bottom: 15px;
+}
